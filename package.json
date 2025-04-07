@@ -1,0 +1,32 @@
+{
+  "name": "tt-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total TypeScript",
+  "license": "MIT",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/StarkovSergey/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/StarkovSergey/tt-package-demo/issues"
+  },
+  "author": "Starkov Sergey <starkovsr@gmail.com> (https://github.com/StarkovSergey)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarkovSergey/tt-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "ci": "npm run build",
+    "build": "tsc",
+    "format": "prettier --write ."
+  }
+}
